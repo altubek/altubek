@@ -1,16 +1,14 @@
 {
-  "id": { "string": {} },
-  "il": { "string": {} },
-  "ilce": { "string": {} },
-  "adi": { "string": {} },
-  "Alanlar": [
-    {
-      "Adi": { "string": {} },
-      "Dallar": [
-        {
-          "Adi": { "string": {} }
-        },        
-      ]
-    },
-  ]
+  "Post": {
+    "title": { "string": {} },
+    "comments": {
+      "hasMany": "Comment"
+    }
+  },
+  "Comment": {
+    "body": { "string": {} },
+    "post": {
+      "belongsTo": "Post"
+    }
+  }
 }

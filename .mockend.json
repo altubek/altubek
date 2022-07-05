@@ -1,13 +1,16 @@
 {
-  "okul": {
-    "il": { "string": {} },
-    "ilce": { "string": {} },
-    "adi": { "string": {} },
-    "alanlar": { 
-      "adi": { "string": {} },
-      "dallar": { 
-        "adi": { "string": {} },
-      },
+  "id": { "string": {} },
+  "il": { "string": {} },
+  "ilce": { "string": {} },
+  "adi": { "string": {} },
+  "Alanlar": [
+    {
+      "Adi": { "string": {} },
+      "Dallar": [
+        {
+          "Adi": { "string": {} }
+        },        
+      ]
     },
-  }
+  ]
 }

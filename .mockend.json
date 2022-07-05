@@ -6,10 +6,8 @@
     "alanlar": { 
       "adi": { "string": {} },
       "dallar": { 
-    "adi": { "string": {} },
-      
+        "adi": { "string": {} },
       },
-      
-      },
+    },
   }
 }

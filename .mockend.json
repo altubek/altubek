@@ -1,5 +1,15 @@
 {
-  "User": {
-    "title": { "string": {} }
+  "okul": {
+    "il": { "string": {} },
+    "ilce": { "string": {} },
+    "adi": { "string": {} },
+    "alanlar": { 
+      "adi": { "string": {} },
+      "dallar": { 
+    "adi": { "string": {} },
+      
+      },
+      
+      },
   }
 }

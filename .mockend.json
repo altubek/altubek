@@ -1,14 +1,14 @@
 {
-  "Okul": {
-    "name": { "string": {} },
-    "alans": {
-      "hasMany": "Alan"
+  "Post": {
+    "title": { "string": {} },
+    "comments": {
+      "hasMany": "Comment"
     }
   },
-  "alan": {
-    "name": { "string": {} },
-    "okul": {
-      "belongsTo": "Okul"
+  "Comment": {
+    "body": { "string": {} },
+    "post": {
+      "belongsTo": "Post"
     }
   }
 }

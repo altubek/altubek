@@ -1,6 +1,9 @@
 {
   "Okul": {
-    "adi": "name",
+    "id":  { "string": {} },
+    "adi":  { "string": {} },
+    "il":  { "string": {} },
+    "ilce":  { "string": {} },
     "comments": {
       "hasMany": "Comment"
     }

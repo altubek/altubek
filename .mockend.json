@@ -1,14 +1,22 @@
 {
-  "Post": {
-    "title": { "string": {} },
-    "comments": {
-      "hasMany": "Comment"
-    }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
-    }
-  }
+    "Okul": {
+        "id": "id",
+		"adi": "name",
+		"il": "country",
+		"ilce": "city",
+        "alans": {
+            "hasMany": "Alan"
+        }
+    },
+    "Alan": {
+        "id": "id",
+        "adi": "name",
+       "dals": {
+            "hasMany": "Dal"
+        }
+    },
+	"Dal": {
+		"id": "id",
+		"adi": "name",
+	}		
 }

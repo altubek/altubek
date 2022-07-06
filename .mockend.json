@@ -1,22 +1,14 @@
 {
-    "Okul": {
-        "id": "id",
-		"adi": "name",
-		"il": "country",
-		"ilce": "city",
-        "alans": {
-            "hasMany": "Alan"
-        }
-    },
-    "Alan": {
-        "id": "id",
-        "adi": "name",
-       "dals": {
-            "hasMany": "Dal"
-        }
-    },
-	"Dal": {
-		"id": "id",
-		"adi": "name",
-	}		
+  "Okul": {
+    "name": { "string": {} },
+    "alans": {
+      "hasMany": "Alan"
+    }
+  },
+  "alan": {
+    "name": { "string": {} },
+    "okul": {
+      "belongsTo": "Okul"
+    }
+  }
 }

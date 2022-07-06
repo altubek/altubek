@@ -1,6 +1,6 @@
 {
   "Okul": {
-    "title": { "string": {} },
+    "adi": "name",
     "comments": {
       "hasMany": "Comment"
     }
